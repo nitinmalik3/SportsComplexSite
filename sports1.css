@@ -1,0 +1,176 @@
+body {
+  
+margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+}
+
+#navigation-container {
+  width: 100%;
+ margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  top: 0;
+  position: sticky;
+  background-color: #2E4053;
+  height: 70px;
+  width: 100%;
+  text-align:right;
+}
+.navigation-bar img{
+float:left;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: white;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 1;
+
+  
+}
+body{
+  animation: fadein 2.5s;
+}
+
+#menu {
+  float: right;
+}
+.left{
+  width: 49%;
+  left: 0;
+ 
+  float: left;
+}
+.right{
+  width: 49%;
+  right: 0;
+  
+  float: left;
+}
+.centered{
+  text-align: center;
+}
+.navigation-container li a:hover{
+  color: #911b1b;
+}
+.mar{
+ margin-right: 25px;  
+margin-left: 25px;
+}
+ .sports tr:hover{
+  background-color: #2E4053;
+  color: white;
+  transition: 0.5s;
+}
+.sports td{
+  width: 50%;
+  text-align: center;
+}
+.data p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.heading{
+  color:#FC4445;
+  font-size: 50px;
+}
+.data{
+  padding: 30px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  max-width: 300px;
+   height:500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.foot
+{
+  background-color: grey;
+  width: 100%;
+  height: 90px;
+  align:center;
+}
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: silver;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+.container {
+  border-radius: 5px;
+   margin-left:50px;
+  padding: 20px;
+}//
